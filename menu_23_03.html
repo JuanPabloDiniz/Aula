@@ -1,5 +1,75 @@
 <script>
-let opcao=prompt("digite \n 1- feijoada\n 2- arroz \n 3- acucar \n 4- macarrao \n 5- farinha \n 6- cafe \n 7- batata_palha \n"
-);
+const CAP_POTEDEFEIJAO = 1000, CAP_POTEDEARROZ = 5000, CAP_POTEDEACUCAR = 5000, CAP_POTEDEMACARRAO = 500, CAP_POTEDEFARINHA = 250, CAP_POTEDECAFE = 500, CAP_BATATA_PALHA = 1500;
+
+var quanti, poteFeijao=0, poteArroz=0, poteAcucar=0, poteMacarrao=0, poteFarinha=0, poteCafe=0, poteBatatapalha=0;
+let opcao=prompt("digite \n 1- feijoada\n 2- arroz \n 3- acucar \n 4- macarrao \n 5- farinha \n 6- cafe \n 7- batata_palha \n");
+quanti=prompt("qual e a quantidade de mantimentos?")
+switch (opcao) {
+case 1:
+  pote_feijao(quanti);
+  break;
+case 2:
+  pote_arroz(quanti);
+  break;
+case 3:
+  pote_acucar(quanti);
+  break;
+case 4: pote_macarrao(quanti);
+  break;
+case 5:
+  pote_farinha(quanti);
+  break;
+case 6: pote_cafe(quanti);
+  break;
+case 7:
+  pote_batata_palha(quanti);
+     
+}
+function pote_feijao(quanti) 
+{
+  if (poteFeijao < CAP_POTEDEFEIJAO) 
+  {
+     //encher o pote de feijao
+	 poteFeijao = poteFeijao + quantidade
+	 sobrando = CAP_POTEDEFEIJAO-poteFeijao;
+	 return sobrando;
+  }
+  else
+  {
+	 let sobrando = 0
+	 prompt("o pote ja esta cheio")
+	 return
+  }
+  return p1 * p2;
+}
+function pote_arroz(quanti) 
+{
+  return p1 * p2;
+}
+function pote_acucar(quanti) 
+{
+  return p1 * p2;
+}
+function pote_macarrao(quanti) 
+{
+  return p1 * p2;
+}
+function pote_farinha(quanti) 
+{
+  return p1 * p2;
+}
+function pote_cafe(quanti) 
+{
+  return p1 * p2;
+}
+function pote_batata_palha(quanti) 
+{
+  return p1 * p2;
+}
+
+
+ //professor tem que falar do bulleando e do laço for
+
 
 </script>
+ 
